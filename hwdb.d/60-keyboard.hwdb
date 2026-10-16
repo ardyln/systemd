@@ -1834,6 +1834,19 @@ evdev:name:AT Translated Set 2 keyboard:phys:sp/serio*/input*:ev:120013:*
  KEYBOARD_KEY_e8=btn_east
 
 ###########################################################
+# OnePlus
+###########################################################
+
+# OnePlus Pad 2 Smart Keyboard (Bluetooth)
+# Matched by name: other OnePlus/OPPO keyboards share the 22d9:3869 ID but announce other names.
+evdev:name:OnePlus Pad Smart Keyboard:*
+evdev:name:OnePlus Pad Smart Keyboard Consumer Control:*
+ KEYBOARD_KEY_70068=micmute                             # Microphone key reports F13
+ KEYBOARD_KEY_70072=search                              # Search key reports F23
+ KEYBOARD_KEY_70073=screenlock                          # Lock key reports F24
+ KEYBOARD_KEY_c0224=esc                                 # Esc key reports AC Back
+
+###########################################################
 # Onkyo
 ###########################################################
 

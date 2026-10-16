@@ -890,6 +890,17 @@ evdev:input:b0003v6161p4D15*
  EVDEV_ABS_01=::244
 
 #########################################
+# OnePlus
+#########################################
+
+# OnePlus Pad 2 Smart Keyboard touchpad (Bluetooth)
+evdev:name:OnePlus Pad Smart Keyboard Touchpad:*
+ EVDEV_ABS_00=::23
+ EVDEV_ABS_01=::23
+ EVDEV_ABS_35=::23
+ EVDEV_ABS_36=::23
+
+#########################################
 # Packard Bell
 #########################################
 
